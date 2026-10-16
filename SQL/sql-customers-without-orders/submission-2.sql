@@ -1,0 +1,1 @@
+select c.name from Customers c left join orders o on o.customer_id = c.id where o.customer_id is null
